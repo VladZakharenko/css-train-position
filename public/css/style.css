@@ -15,7 +15,7 @@ body {
   margin-bottom: 50px;
   min-width: 750px;
   background: white;
-  max-height: 400px;
+  max-height: 400px; 
   height: 400px;
   width: 700px;
   position: relative;
@@ -56,4 +56,129 @@ p {
   font-size: 20px;
   color: black;
   margin-bottom: 20px;
+}
+
+
+
+.task1 {
+  position: absolute;
+  left: 200px;
+  top: 150px
+}
+
+
+
+.task2 * {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+}
+
+.task3 .item {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.task4 .item {
+  position: absolute;
+  left: calc(50% - 40px)
+}
+
+.task5 .item1 {
+  position: absolute;
+  z-index: 4;
+  top: 20px;
+  left: 20px;
+
+}
+
+.task5 .item2 {
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  left: 40px;
+}
+
+.task5 .item3 {
+  position: absolute;
+  z-index: 6;
+  
+}
+
+.task6 .item {
+  float: left;
+}
+
+.task7 .item {
+  float: right;
+}
+
+
+
+.task8 .elem {
+  clear: both
+}
+
+.task9 .item1 {
+  float: left;
+}
+
+.task9 .item2 {
+  
+  float: right;
+  
+}
+
+.task11 .img-item{
+  object-fit: contain;
+}
+
+.task12 .img-item{
+  object-fit: cover;
+}
+
+.task13 .img-item{
+  object-fit: fill;
+}
+
+.task14 .img-item{
+  object-fit: scale-down;
+}
+
+.task15 .img-item{
+  object-position: right center;
+}
+
+.task16 .img-item{
+  object-position: left top;
+}
+
+.task17 .img-item{
+  object-position: bottom center;
+}
+
+.task18 .img-item{
+  object-position:  40px 25px;
+}
+
+.task19 .img-item{
+  object-position:  center center;
+}
+
+.task20 {
+  user-select: none;
+}
+
+.task21 * {
+  user-select: all;
+}
+
+.task22 {
+  caret-color: blue;
+}
+
+html {
+  scroll-behavior: smooth;
 }
